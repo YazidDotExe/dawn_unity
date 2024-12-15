@@ -1,0 +1,19 @@
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": false,
+  "bookData": {
+    "apotheosis:apoth_chronicle": {
+      "viewedEntries": [
+        "apotheosis:spawner/spawners",
+        "apotheosis:adventure/affix_loot/affixes",
+        "apotheosis:adventure/attributes/prot_shred",
+        "apotheosis:enchanting/enchantments/obliteration",
+        "apotheosis:enchanting/anvil/obliteration",
+        "apotheosis:enchanting/enchantments/earths_boon",
+        "apotheosis:enchanting/table/info"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    }
+  }
+}
