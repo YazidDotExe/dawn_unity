@@ -88,6 +88,17 @@
         "value": 8
       }
     },
+    "cold_sweat:base_temperature": {
+      "enabled": false,
+      "min": {
+        "default": NaN,
+        "value": NaN
+      },
+      "max": {
+        "default": Infinity,
+        "value": Infinity
+      }
+    },
     "attributeslib:armor_pierce": {
       "enabled": false,
       "min": {
@@ -97,6 +108,17 @@
       "max": {
         "default": 1000,
         "value": 1000
+      }
+    },
+    "cold_sweat:heat_resistance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
       }
     },
     "attributeslib:cold_damage": {
@@ -165,6 +187,17 @@
         "value": 10000
       }
     },
+    "cold_sweat:cold_dampening": {
+      "enabled": false,
+      "min": {
+        "default": -Infinity,
+        "value": -Infinity
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
     "additionalentityattributes:magic_protection": {
       "enabled": false,
       "min": {
@@ -209,6 +242,17 @@
         "value": 40000
       }
     },
+    "cold_sweat:heat_dampening": {
+      "enabled": false,
+      "min": {
+        "default": -Infinity,
+        "value": -Infinity
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
     "attributeslib:dodge_chance": {
       "enabled": false,
       "min": {
@@ -218,6 +262,28 @@
       "max": {
         "default": 1,
         "value": 1
+      }
+    },
+    "vminus:critical_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "vminus:health_lost_stat_boost": {
+      "enabled": false,
+      "min": {
+        "default": -100,
+        "value": -100
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "minecraft:zombie.spawn_reinforcements": {
@@ -264,6 +330,28 @@
         "value": 10
       }
     },
+    "cold_sweat:freezing_point": {
+      "enabled": false,
+      "min": {
+        "default": -Infinity,
+        "value": -Infinity
+      },
+      "max": {
+        "default": Infinity,
+        "value": Infinity
+      }
+    },
+    "ars_nouveau:ars_nouveau.perk.wixie": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "forge:swim_speed": {
       "enabled": false,
       "min": {
@@ -286,17 +374,6 @@
         "value": 100
       }
     },
-    "ars_nouveau:ars_nouveau.perk.wixie": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1024,
-        "value": 1024
-      }
-    },
     "minecraft:generic.armor_toughness": {
       "enabled": true,
       "min": {
@@ -317,6 +394,28 @@
       "max": {
         "default": 2048,
         "value": 2048
+      }
+    },
+    "vminus:mob_detection_range": {
+      "enabled": false,
+      "min": {
+        "default": -100,
+        "value": -100
+      },
+      "max": {
+        "default": 0,
+        "value": 0
+      }
+    },
+    "vminus:magic_protection": {
+      "enabled": false,
+      "min": {
+        "default": -100,
+        "value": -100
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "attributeslib:crit_damage": {
@@ -440,6 +539,17 @@
         "value": 1
       }
     },
+    "cold_sweat:world_temperature": {
+      "enabled": false,
+      "min": {
+        "default": NaN,
+        "value": NaN
+      },
+      "max": {
+        "default": Infinity,
+        "value": Infinity
+      }
+    },
     "minecraft:generic.armor": {
       "enabled": true,
       "min": {
@@ -460,6 +570,39 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "vminus:protection": {
+      "enabled": false,
+      "min": {
+        "default": -100,
+        "value": -100
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "vminus:blunt_protection": {
+      "enabled": false,
+      "min": {
+        "default": -100,
+        "value": -100
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "vminus:fall_protection": {
+      "enabled": false,
+      "min": {
+        "default": -100,
+        "value": -100
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "attributeslib:prot_pierce": {
@@ -484,6 +627,17 @@
         "value": 1024
       }
     },
+    "vminus:fire_protection": {
+      "enabled": false,
+      "min": {
+        "default": -100,
+        "value": -100
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "autoleveling:monster.explosion_damage_bonus": {
       "enabled": false,
       "min": {
@@ -504,6 +658,17 @@
       "max": {
         "default": 1,
         "value": 1
+      }
+    },
+    "vminus:mining_speed": {
+      "enabled": false,
+      "min": {
+        "default": -255,
+        "value": -255
+      },
+      "max": {
+        "default": 255,
+        "value": 255
       }
     },
     "attributeslib:mining_speed": {
@@ -528,6 +693,17 @@
         "value": 1024
       }
     },
+    "vminus:projectile_damage": {
+      "enabled": false,
+      "min": {
+        "default": -255,
+        "value": -255
+      },
+      "max": {
+        "default": 255,
+        "value": 255
+      }
+    },
     "caelus:fall_flying": {
       "enabled": false,
       "min": {
@@ -550,6 +726,17 @@
         "value": 10000
       }
     },
+    "cold_sweat:cold_resistance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
     "minecraft:generic.max_health": {
       "enabled": true,
       "min": {
@@ -559,6 +746,17 @@
       "max": {
         "default": 1024,
         "value": 1000000
+      }
+    },
+    "cold_sweat:burning_point": {
+      "enabled": false,
+      "min": {
+        "default": -Infinity,
+        "value": -Infinity
+      },
+      "max": {
+        "default": Infinity,
+        "value": Infinity
       }
     },
     "skilltree:blocking": {
@@ -583,15 +781,15 @@
         "value": 1
       }
     },
-    "additionalentityattributes:bonus_rare_loot_rolls": {
+    "vminus:blast_protection": {
       "enabled": false,
       "min": {
-        "default": 0,
-        "value": 0
+        "default": -100,
+        "value": -100
       },
       "max": {
-        "default": 128,
-        "value": 128
+        "default": 100,
+        "value": 100
       }
     },
     "skilltree:stealth": {
@@ -603,6 +801,17 @@
       "max": {
         "default": 90,
         "value": 90
+      }
+    },
+    "additionalentityattributes:bonus_rare_loot_rolls": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 128,
+        "value": 128
       }
     },
     "attributeslib:arrow_damage": {
@@ -627,17 +836,6 @@
         "value": 2
       }
     },
-    "ars_nouveau:ars_nouveau.perk.spell_damage": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 10000,
-        "value": 10000
-      }
-    },
     "attributeslib:arrow_velocity": {
       "enabled": false,
       "min": {
@@ -647,6 +845,17 @@
       "max": {
         "default": 10,
         "value": 10
+      }
+    },
+    "ars_nouveau:ars_nouveau.perk.spell_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10000,
+        "value": 10000
       }
     },
     "autoleveling:monster.projectile_damage_bonus": {
